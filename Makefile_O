@@ -1,0 +1,15 @@
+include objects.h
+#
+PROGRAM = dmag9b.o
+#
+CC = g++
+CFLAGS = -O -Wall\
+-I../common
+#
+all: $(PROGRAM)
+#
+$(PROGRAM): $(objects)
+	ld -r -o $@ $(objects)
+#
+.c.o:
+	$(CC) -c $(CFLAGS) $<
