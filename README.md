@@ -18,6 +18,8 @@ Info about dmag9b (theory behind it and how to use it) can be found here:
 
 [Depth Map Improvement Using The Fast Bilateral Solver](https://www.dropbox.com/s/i5vpf5f6jnudpns/fast_bilateral_solver_dmag9b.pdf?dl=0)
 
+[Fast Bilateral-Space Stereo](https://www.dropbox.com/s/ke46mg8pkyou7s2/fast_bilateral_space_stereo.pdf?dl=0)
+
 Dependencies (check the Makefiles):
 
 "common" repo
